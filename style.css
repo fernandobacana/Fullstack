@@ -1,0 +1,66 @@
+/* remove margem padrão do navegador */
+body{
+    margin:0;
+    font-family: Arial;
+}
+
+/* cabeçalho vermelho tipo site de noticias */
+.header{
+    background-color:red;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+/* menu de navegação */
+.menu{
+    background-color:#eee;
+    display:flex;
+    justify-content:center;
+}
+
+/* cada item do menu */
+.menu-item{
+    padding:15px;
+    margin:5px;
+    cursor:pointer;
+}
+
+/* efeito quando passa o mouse */
+.menu-item:hover{
+    background-color:#ddd;
+}
+
+/* área da noticia principal */
+.principal{
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+    padding:20px;
+    border:1px solid #ccc;
+}
+
+/* container das noticias menores */
+.noticias{
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+    display:flex;
+    gap:20px;
+}
+
+/* card de noticia */
+.card{
+    flex:1;
+    border:1px solid #ccc;
+    padding:15px;
+}
+
+/* rodapé */
+.footer{
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
