@@ -1,12 +1,15 @@
+//adicionei fonte , cor e tamanho ao paragrafo
+
 .p {
     font-family: sans-serif;
     font-size: 20pt;
     color:rgb(72,20,122);
 }
-
+//cor do H1 
 .H {
     color: darkgreen;
 }
+
 
 
 
@@ -99,4 +102,5 @@ li{
     display: block;
     align-items:center;
     text-align:center;
+
 }
