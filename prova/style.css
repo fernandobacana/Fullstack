@@ -1,0 +1,107 @@
+.pvermelho{
+    color:rgb(255, 255, 255);
+    background-color: red;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.cabecalho{
+
+  display: flex;
+justify-content: space-around;
+ font-size: 17px;
+
+}
+
+.txtcorreio{
+display: flex;
+text-align: end;
+justify-content: flex-end;
+
+}
+
+.txtcorreio2{
+display: flex;
+text-align: end;
+justify-content: flex-end;
+
+
+}
+
+.data{
+    justify-content: space-evenly;
+    
+}
+
+
+h1{
+    color:red;
+    padding-left: 50px;
+    display: flex;
+}
+.motorista{
+    background-color: rgb(202, 37, 37);
+    
+    
+}
+.pbranco{
+    color: rgb(255, 255, 255);
+    
+}
+.pcinza{
+    color:rgb(210, 210, 210);
+   
+
+}
+.textos{
+text-align: justify;
+}
+.imagens{
+    justify-content: space-around;
+    display: flex;
+}
+.txtpol{
+
+color: red;
+}
+.Cantora{
+    color:gray
+}
+
+.rep{
+    color:red
+}
+
+.sou{
+    color:gray
+}
+
+.lid{
+    color:red
+}
+
+.veja{
+    
+    color:red;
+    display: flex;
+}
+.tf{
+padding-right: 400px;
+
+}
+.frame{
+
+background-color: gray;
+
+}
+
+h3{
+    color: whitesmoke;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.pfinal{
+    color:gainsboro
+}
