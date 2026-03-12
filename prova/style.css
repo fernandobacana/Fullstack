@@ -1,107 +1,166 @@
-.pvermelho{
-    color:rgb(255, 255, 255);
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+}
+
+e .pvermelho {
+    color: white;
     background-color: red;
-    font-size: 18px;
+    padding: 5px 10px;
+}
+
+
+.data {
     display: flex;
-    justify-content: space-around;
-    
-
-}
-.cabecalho{
-
-  display: flex;
-justify-content: space-around;
- font-size: 17px;
-
-}
-
-.txtcorreio{
-display: flex;
-text-align: end;
-justify-content: flex-end;
-
-}
-
-.txtcorreio2{
-display: flex;
-text-align: end;
-justify-content: flex-end;
-
-
-}
-
-.data{
-    justify-content: space-evenly;
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    text-align: end
 }
 
 
-h1{
-    color:red;
+
+
+.txtcorreio {
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+.txtcorreio2 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    gap: 50px;
+}
+
+
+
+
+h1 {
+    color: red;
     padding-left: 50px;
-    display: flex;
 }
-.motorista{
-    background-color: rgb(202, 37, 37);
-    
-    
-}
-.pbranco{
-    color: rgb(255, 255, 255);
-    
-}
-.pcinza{
-    color:rgb(210, 210, 210);
-   
 
-}
-.textos{
-text-align: justify;
-}
-.imagens{
+
+
+.imagens {
+    display: flex;
     justify-content: space-around;
-    display: flex;
-}
-.txtpol{
-
-color: red;
-}
-.Cantora{
-    color:gray
+    padding: 20px;
 }
 
-.rep{
-    color:red
+
+
+
+.motorista {
+    background-color: rgb(202, 37, 37);
+    padding: 10px;
 }
 
-.sou{
-    color:gray
+.pbranco {
+    color: white;
 }
 
-.lid{
-    color:red
+.pcinza {
+    color: rgb(210, 210, 210);
 }
 
-.veja{
-    
-    color:red;
-    display: flex;
-}
-.tf{
-padding-right: 400px;
 
-}
-.frame{
 
-background-color: gray;
 
+.txtpol {
+    color: red;
 }
 
-h3{
-    color: whitesmoke;
+.Cantora {
+    color: gray;
+}
+
+.rep {
+    color: red;
+}
+
+.sou {
+    color: gray;
+}
+
+
+
+
+.tf {
+    padding-left: 60px;
+}
+
+.veja {
+    color: red;
+    text-align: end;
+    padding-right: 50px;
+}
+
+.lid {
+    color: red;
+    text-align: end;
+    padding-right: 50px;
+}
+
+
+
+
+.frame {
+    background-color: gray;
+    padding: 20px;
+}
+
+h3 {
+    color: white;
     padding-left: 20px;
-    padding-top: 10px;
 }
-.pfinal{
-    color:gainsboro
+
+
+
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    background: #f2f2f2;
+    padding: 30px;
+    margin-top: 40px;
+    color: gray;
+}
+
+
+
+.rodape1 {
+    width: 250px;
+    color: gray;
+}
+
+.rodape2 {
+    width: 200px;
+    color: gray;
+}
+
+.rodape3 {
+    width: 200px;
+    color: gray;
+}
+
+.rodape4 {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+
+.pfinal {
+    color: gray;
+    font-size: 14px;
 }
