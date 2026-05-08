@@ -1,0 +1,38 @@
+s
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+th {
+    background-color: #00bfff;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+h1{
+    color: aqua;
+    background-color: #0080aa;
+}
+head{
+    background-color: #0080aa;
+}
+a{
+    
+    display: flex;
+    justify-content: space-around;
+}
+a.hover{
+    background-color: #aa0000;
+}
