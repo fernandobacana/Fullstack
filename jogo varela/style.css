@@ -1,127 +1,164 @@
-/* Importa uma fonte legal do Google */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
-
-/* Configurações gerais da página */
-body {
-  background-color: #0a0a1a;
-  color: #ffffff;
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-/*  navegação */
-nav {
-  background-color: #111133;
-  padding: 15px 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid #00e5ff;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #1e1e1e;
+  color: white;
 }
 
-nav .logo {
-  font-family: 'Orbitron', sans-serif;
-  color: #00e5ff;
-  font-size: 1.2rem;
+header {
+  background: #2d2d2d;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  color: #55ff55;
+}
+
+nav a {
+  color: white;
   text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
 }
 
-nav ul {
-  list-style: none;
+nav a:hover {
+  color: #55ff55;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #55ff55;
+  color: black;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #3ddb3d;
+}
+
+.divider {
+  margin: 40px 0;
+  border: 1px solid #444;
+}
+
+.card {
+  background: #2d2d2d;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.dev-card {
   display: flex;
   gap: 20px;
-  margin: 0;
-  padding: 0;
 }
 
-nav ul a {
-  color: #aaaacc;
-  text-decoration: none;
-  font-size: 0.9rem;
+
+.purple {
+  background: linear-gradient(135deg, #b347ea, #7e1cb8);
 }
 
-nav ul a:hover,
-nav ul a.ativo {
-  color: #00e5ff;
-}
-
-/* pagina principal */
-main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
-
-/* Títulos */
-h1 {
-  font-family: 'Orbitron', sans-serif;
-  color: #00e5ff;
-  font-size: 2.5rem;
+.dev-info p {
   margin-bottom: 10px;
 }
 
-h2 {
-  color: #b347ea;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1.2rem;
-  margin-top: 40px;
+.label {
+  font-weight: bold;
+  color: #55ff55;
 }
 
-p {
-  color: #ccccdd;
-  line-height: 1.7;
+.value {
+  color: #ddd;
 }
 
-/* informação do game */
-.caixa {
-  background-color: #111133;
-  border: 1px solid #00e5ff44;
-  border-radius: 8px;
+.ref-box {
+  background: #2d2d2d;
   padding: 20px;
-  margin: 15px 0;
+  border-radius: 10px;
 }
 
-/* Botão */
-.botao {
-  display: inline-block;
-  background-color: transparent;
-  color: #00e5ff;
-  border: 2px solid #00e5ff;
-  padding: 12px 30px;
-  border-radius: 5px;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 0.9rem;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background 0.3s;
+.ref-box ul {
+  padding-left: 20px;
+  margin-top: 10px;
 }
 
-.botao:hover {
-  background-color: rgba(0, 229, 255, 0.15);
+.ref-box li {
+  margin-bottom: 10px;
 }
 
-/* linha  */
-hr {
-  border: none;
-  border-top: 1px solid #222244;
-  margin: 40px 0;
+.ref-box a {
+  color: #55ff55;
 }
 
-/* Rodapé */
-footer {
+.game-page {
   text-align: center;
-  padding: 20px;
-  color: #555577;
-  border-top: 1px solid #222244;
-  font-size: 0.85rem;
+  padding: 30px;
 }
 
-/* jogo */
-#gameCanvas {
-  display: block;
-  margin: 0 auto;
-  border: 2px solid #00e5ff44;
-  border-radius: 6px;
-  background: #000;
+.game-page h2 {
+  margin-bottom: 10px;
+}
+
+.difficulty {
+  margin: 20px 0;
+}
+
+.difficulty button {
+  padding: 12px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 8px;
+  background: #55ff55;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.difficulty button:hover {
+  background: #3ddb3d;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+canvas {
+  background: #87ceeb;
+  border: 5px solid #333;
+  border-radius: 10px;
 }

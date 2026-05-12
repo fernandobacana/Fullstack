@@ -1,0 +1,52 @@
+<!-- jogo.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Break jogão </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Block Break</h1>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="jogo.html">Jogo</a>
+        </nav>
+    </header>
+
+    <main class="game-page">
+
+        <h2>Quebre os blocos!</h2>
+
+        <p>
+            Clique nos blocos antes que eles desapareçam.
+            Quanto maior a velocidade, mais difícil fica.
+        </p>
+
+        <div class="difficulty">
+            <button onclick="startGame('facil')">Fácil</button>
+            <button onclick="startGame('medio')">Médio</button>
+            <button onclick="startGame('dificil')">IMPOSSIVEL</button>
+        </div>
+
+        <div class="info">
+            <p>Pontos: <span id="score">0</span></p>
+            <p>Tempo: <span id="time">30</span></p>
+        </div>
+
+        <canvas id="gameCanvas" width="900" height="500"></canvas>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

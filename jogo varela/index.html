@@ -1,67 +1,190 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
   <meta charset="UTF-8" />
-  <title>Star Defender</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Block Break</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <nav>
-    <a href="index.html" class="logo">Star Defender</a>
-    <ul>
-      <li><a href="index.html" class="ativo">Início</a></li>
-      <li><a href="developers.html">Desenvolvedores</a></li>
-      <li><a href="jogo.html">Jogar</a></li>
-    </ul>
-  </nav>
+  <header>
+    <h1>Block Break</h1>
 
-  <main>
-    <h1>Star Defender</h1>
-    <p>Um jogo de nave espacial feito com HTML, CSS e JavaScript puro.</p>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="jogo.html">Jogo</a>
+    </nav>
+  </header>
 
-    <a href="jogo.html" class="botao">▶ Jogar Agora</a>
+  <main class="container">
 
-    <hr>
+    <section class="hero">
+      <h2>Quebre os blocos o mais rápido possível!</h2>
 
-    <h2>Sobre o Jogo</h2>
-    <p>
-      No jogo star defender voce controla uma nave, onde está tendo uma invasão galatica de inimigos , seu objetivo é derrota-los e conquistar a paz intergalaxica.
-    </p>
+      <p>
+        Block Break é um jogo simples inspirado no Minecraft.
+        O objetivo é quebrar os blocos que aparecem rapidamente na tela
+        antes que o tempo acabe.
+      </p>
 
-    <h2>Tutorial]</h2>
-    <div class="caixa">
-      <p>🎮 <strong>← →</strong> — Move a nave para os lados</p>
-      <p>🔫 <strong>Espaço</strong> — Atira</p>
-      <p>🔄 <strong>Enter</strong> — Reinicia após Game Over</p>
+      <a class="btn" href="jogo.html">JOGAR AGORA</a>
+    </section>
+
+    <hr class="divider" />
+
+    <h1>DESENVOLVEDORES</h1>
+    <p>Conheça quem criou o Block Break.</p>
+
+    <hr class="divider" />
+    <h2>Integrantes</h2>
+
+    <div class="card">
+
+
+
+      <div class="dev-info">
+        <p class="label">Fernando Risseto</p>
+
+        <p class="label">RA</p>
+        <p class="value">52.126.026-5</p>
+
+        <p class="label">E-mail Institucional</p>
+        <p class="value">guiurisseto@gmail.com</p>
+
+        <p class="label">Curso / Período</p>
+        <p class="value">CDIA – 1º Semestre</p>
+
+        <p class="label">Contribuição no Projeto</p>
+        <p class="value">
+          Desenvolvimento do visual (HTML , CSS) das páginas.
+        </p>
+      </div>
+    </div>
     </div>
 
-    <h2>Objetivo</h2>
-    <p>
-      Destrua todos os inimigos de cada onda para avançar. Você tem
-      <strong>3 vidas</strong>. Perde uma vida quando um inimigo te atinge
-      ou quando atravessa sua linha de defesa.
-    </p>
+    <br>
+    <hr><br>
 
-    <h2>Inimigos</h2>
-    <div class="caixa">
-      <p>👾 <strong>Alienígena Comum (roxo)</strong> — 1 vida, vale 10 pontos</p>
-      <p>🔴 <strong>Alienígena Elite (vermelho)</strong> — 2 vidas, vale 25 pontos</p>
+    <div class="card">
+      <div class="dev-card">
+
+
+        <div class="dev-info">
+          <p class="label">Raphael Rodrigues de Oliveira</p>
+
+          <p class="label">RA</p>
+          <p class="value">52.126.002-6</p>
+
+          <p class="label">E-mail Institucional</p>
+          <p class="value">raphaaroliveira@gmail.com</p>
+
+          <p class="label">Curso / Período</p>
+          <p class="value">CDIA – 1º Semestre</p>
+
+          <p class="label">Contribuição no Projeto</p>
+          <p class="value">
+            Design do canvas e participação no css/js.
+          </p>
+        </div>
+      </div>
     </div>
 
-    <h2>Power-ups</h2>
-    <div class="caixa">
-      <p>⚡ <strong>Tiro Duplo (azul)</strong> — Atire dois projéteis por 8 segundos</p>
-      <p>🛡️ <strong>Escudo (verde)</strong> — Absorve 1 tiro inimigo</p>
+    <br>
+    <hr><br>
+
+    <div class="card">
+      <div class="dev-card">
+        <div class="dev-info">
+          <p class="label">Pedro Megiolaro Braga</p>
+
+          <p class="label">RA</p>
+          <p class="value">52.126.030.7</p>
+
+          <p class="label">E-mail</p>
+          <p class="value">pe.mbraga@gmail.com</p>
+
+          <p class="label">Curso / Período</p>
+          <p class="value">CDIA – 1º Semestre</p>
+
+          <p class="label">Contribuição</p>
+          <p class="value">
+            Parte mecanica do jogo , js e funcionamento.
+          </p>
+        </div>
+      </div>
     </div>
 
-    <h2>Tecnologias</h2>
-    <p>HTML / Canvas  / CSS / JavaScript </p>
+    <hr class="divider" />
 
-    <hr>
+    <h2>Sobre o Projeto</h2>
+
+    <div class="card">
+      <h3>Disciplina</h3>
+
+      <p>Fullstack — CDIA , 1º Semestre.</p>
+
+      <h3>Objetivo</h3>
+
+      <p>
+        O nosso objetivo era criar um jogo imersivo e antigo,
+        como os 3 integrantes jogaram muito na infancia,
+        pensamos em criar algo que fosse minimamente divertido de jogar,
+        não somente pro projeto.
+      </p>
+    </div>
+
+    <hr class="divider" />
+
+    <h2>Referências e Uso de IA</h2>
+
+    <div class="ref-box">
+
+      <strong>Referências:</strong>
+
+      <ul>
+        <li>
+          Jogos no moodle :
+          <a href="https://fagnerpimentel-academic.github.io/web_games/" target="_blank">
+            web_games
+          </a>
+        </li>
+
+        <li>
+          Criando jogo em JS (youtube):
+          <a href="https://www.youtube.com/watch?v=bPd56USttW4&list=PLFR9RzE8eBnOdPzZsNu5W0DTAWQIy5TDE" target="_blank">
+            Playlist JS
+          </a>
+        </li>
+
+        <li>
+          Google Fonts:
+          <a href="https://fonts.google.com" target="_blank">
+            fonts.google.com
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <br><br>
+
+    <div class="ref-box">
+      <strong>Uso de IA:</strong>
+
+      <p>
+        Usamos a IA para auxiliar nas funções do jogo,
+        onde tinhamos duvidas.
+        Utilizamos a playlist acima para nos basear nos movimentos,
+        quando não entendiamos pediamos auxilio pro Claude explicar
+        e ajudar em parte do codigo.
+      </p>
+    </div>
 
   </main>
 
-
 </body>
+
 </html>
